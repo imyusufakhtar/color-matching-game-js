@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Matching Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Color Matching Game</h1>
+        <button id="play-button">Play Game</button>
+        <div id="game-board" style="display: none;"></div>
+        <div id="score" style="display: none;">Score: 0</div>
+        <div id="timer" style="display: none;">Time: 30</div>
+        <div id="round" style="display: none;">Round: 1</div>
+        <div id="status" style="display: none;"></div>
+        <button id="reset-button" style="display: none;">Reset Game</button>
+        <button id="about-button">About Game</button>
+    </div>
+
+    <!-- Modal for About Game -->
+    <div id="about-modal">
+        <div id="modal-content">
+            <span id="modal-close">&times;</span>
+            <h2>About the Game</h2>
+            <p><strong>Color Matching Game</strong> is a fun and challenging game where you match pairs of colored tiles. The objective is to find all matching pairs as quickly as possible.</p>
+            <h3>How to Play</h3>
+            <ul>
+                <li>Click on a tile to reveal its color.</li>
+                <li>Click on another tile to reveal its color.</li>
+                <li>If the two tiles match, they will stay revealed.</li>
+                <li>If they do not match, they will be hidden again.</li>
+                <li>Continue until all pairs are found.</li>
+            </ul>
+            <h3>Benefits of Playing</h3>
+            <ul>
+                <li>Improves memory and concentration.</li>
+                <li>Enhances pattern recognition skills.</li>
+                <li>Provides a fun and engaging way to challenge yourself.</li>
+                <li>Helps with cognitive skills and mental agility.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
